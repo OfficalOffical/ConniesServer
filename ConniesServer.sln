@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConniesServer", "ConniesServer\ConniesServer.csproj", "{F14A7135-40DD-46F5-A16C-D12B4C2F0FAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConniesClient", "ConniesClient\ConniesClient.csproj", "{3D7A5B0B-5B8A-48D3-AC3C-34B87EDD702C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F14A7135-40DD-46F5-A16C-D12B4C2F0FAC} = {F14A7135-40DD-46F5-A16C-D12B4C2F0FAC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F14A7135-40DD-46F5-A16C-D12B4C2F0FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14A7135-40DD-46F5-A16C-D12B4C2F0FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14A7135-40DD-46F5-A16C-D12B4C2F0FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14A7135-40DD-46F5-A16C-D12B4C2F0FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D7A5B0B-5B8A-48D3-AC3C-34B87EDD702C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7A5B0B-5B8A-48D3-AC3C-34B87EDD702C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7A5B0B-5B8A-48D3-AC3C-34B87EDD702C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7A5B0B-5B8A-48D3-AC3C-34B87EDD702C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {698BDD34-F04C-4E9C-BD9D-A851B04DD8CF}
+	EndGlobalSection
+EndGlobal
